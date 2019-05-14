@@ -6,8 +6,18 @@ public class Book{
 	private int numberOfPages;
 	private boolean isHardCover;
 
-	
-	public static void main(String[] args){
-	
+	public void setAuthor(String author){
+		this.author = author;
 	}
+	public String getAuthor(){
+		return author;
+	}
+	public void setGenre(String genre){
+		this.genre = genre;
+	}
+	
+	public String getGenre(){
+		return genre;
+	}
+
 }
